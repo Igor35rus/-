@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(./3cd45844-a913-4efe-b076-5dea085671d6.png);
+    background-size: cover; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(253, 237, 57);
+}
+
+.content {
+    text-align: center;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+}
+.image-container {
+    position: relative;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.caption {
+   position:absolute;
+   bottom :10px ; 
+   left :50%; 
+   transform :translateX(-50%); 
+   color:white ;
+   background-color:rgb(198, 155, 27) ;
+   padding :5px ;
+}
+
+h1 {
+   font-size : 36px ;
+   margin-bottom : 20px ;
+}
+
+a {
+   color:white ;
+   text-decoration:none ;
+   font-weight:bold ;
+}
+
+a:hover { 
+  text-decoration : underline ;
+} 
+
+footer{
+ position:absolute ;
+ bottom :10px ;
+ left :50% ;
+ transform :translateX(-50%) ;
+
+}
