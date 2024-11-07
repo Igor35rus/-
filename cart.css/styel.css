@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url(./1696581224_gas-kvas-com-p-kartinki-ozero-6.jpg);
+    background-size: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.jpg {
+    position: absolute; /* Позволяет разместить изображение поверх фона */
+    width: 200px; /* Установите нужную ширину изображения */
+}
+.text-overlay {
+    position:absolute;
+    color:rgb(202, 13, 13); /* Цвет текста (можно изменить)*/
+    font-size :24px ;/* Размер шрифта (можно изменить)*/
+    text-align:center ;
+   }
