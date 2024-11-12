@@ -28,15 +28,21 @@ img {
    bottom :10px ; 
    left :50%; 
    transform :translateX(-50%); 
-   color:white ;
+   color:rgb(255, 255, 255) ;
    background-color:rgb(198, 155, 27) ;
-   padding :5px ;
+   padding :5px ;  
+   font-family: "Merriweather", serif;
+   font-weight: 400;
+   font-style: italic;
 }
 
 h1 {
-   font-size : 36px ;
-   margin-bottom : 20px ;
-}
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+
 
 a {
    color:white ;
@@ -50,8 +56,13 @@ a:hover {
 
 footer{
  position:absolute ;
- bottom :10px ;
+ bottom :30px ;
  left :50% ;
  transform :translateX(-50%) ;
-
+ font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color:rgb(8, 12, 137) ;
+  background-color:rgb(231, 171, 87) ;
 }
