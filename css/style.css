@@ -8,6 +8,21 @@ body {
     align-items: center; 
     color: rgb(253, 237, 57);
 }
+.navbar {
+  position: fixed;
+  top: 5px; 
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #5cb389; 
+  color: white;
+  padding: 10px 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
 
 .content {
     text-align: center;
@@ -25,15 +40,16 @@ img {
 
 .caption {
    position:absolute;
-   bottom :10px ; 
+   bottom :-95px ; 
    left :50%; 
    transform :translateX(-50%); 
    color:rgb(255, 255, 255) ;
-   background-color:rgb(198, 155, 27) ;
+   
    padding :5px ;  
    font-family: "Merriweather", serif;
    font-weight: 400;
    font-style: italic;
+   backdrop-filter: blur(100px);
 }
 
 h1 {
@@ -64,5 +80,4 @@ footer{
   font-weight: weight;
   font-style: normal;
   color:rgb(8, 12, 137) ;
-  background-color:rgb(231, 171, 87) ;
 }
